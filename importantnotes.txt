@@ -1,0 +1,27 @@
+
+
+1 based indexing
+
+node --> ith index 
+
+left child = 2* i index 
+
+right child = 2* i +1 ;
+parent = i/2;
+
+
+
+
+
+                  root at 0       root at 1
+Left child        index*2 + 1     index*2
+Right child       index*2 + 2     index*2 + 1
+Parent            (index-1)/2     index/2
+
+
+Tc of heap 
+insertion : Logn 
+deletion : logn 
+
+
+
